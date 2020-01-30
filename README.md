@@ -2,6 +2,8 @@
 
 Evolved from https://github.com/JohnnyFFM/blagominer
 
+Added "GenerateTo", please set it to your corresponding mining address.
+
 ## What is Valve Proof of Capacity (vPoc)?
 Valve Proof of Capacity vPoc is, in general, a mechanism to ensure that a party has dedicated a particular (significant) amount of storage space towards a specific goal. NOVA uses vPoc in the process of transaction verification for the validation and generation of blocks. Here, miners use a given amount of disk space to fill with plots. The more disk space is plotted, the higher the chances to generate (win) a block. PoC is thus in direct contrast to other consensus algorithms like Proof of Work (PoW) and Proof of Stake (PoS) where block generators need to proof the performance of some difficult computations or the ownership of a significant amount of currency, respectively.
 
